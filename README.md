@@ -1,0 +1,2 @@
+# fnbar-scoreboard
+FiveM scoreboard

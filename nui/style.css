@@ -1,0 +1,126 @@
+:root {
+    --main: #088efc;
+    --secondary: #0b70f3;
+    --background: #141414;
+    /* --main: #0b70f3; */
+    --textgradient: linear-gradient(0deg, var(--main), var(--secondary));
+}
+
+/* :root { 
+    --main: crimson;
+    --secondary: rgb(160, 20, 48);
+    --background: #141414;
+    --textgradient: linear-gradient(0deg, #bd304f, #c7374f);
+} */
+
+#scoreboard {
+    position: absolute;
+    left: 50%;
+    top: 1vh;
+    transform: translate(-50%, 0%);
+    width: 0vh; /* Hidden By Default, 28vh */
+    height: 0vh; /* Hidden By Default, 16vh */
+    background-color: var(--background);
+    border-radius: 8px;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: var(--main); */
+    box-shadow: 0px 0px 73px -29px var(--main), inset -1px -140px 130px -160px var(--main);
+    transition: height 0.3s, width 0.3s;
+    overflow: hidden;
+    transform-origin: center;
+}
+
+#scoreboard #online-players h1 {
+    font-size: 3.5vh;
+    text-align: center;
+    margin-top: 1vh;
+    margin-bottom: 0vh;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: 0px 0px 6px var(--main);
+
+    background: linear-gradient(0deg, var(--main), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#scoreboard #online-players h2 {
+    font-size: 2vh;
+    text-align: center;
+    margin-top: 0.1vh;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: 0px 0px 6px var(--secondary);
+
+    background: var(--textgradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#jobs {
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+    flex-direction: row;
+    margin-bottom: 0vh;
+    margin-top: -0.7vh;
+}
+
+#scoreboard #jobs h3 {
+    font-size: 1.5vh;
+    text-align: center;
+    margin-top: 0.1vh;
+    margin-bottom: 0.1vh;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: 0px 0px 6px var(--main);
+
+    background: linear-gradient(0deg, var(--main), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#scoreboard #jobs h4 {
+    font-size: 1.5vh;
+    text-align: center;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: 0px 0px 6px var(--secondary);
+
+    background: var(--textgradient); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#scoreboard #currentjob-title {
+    font-size: 1.5vh;
+    text-align: center;
+    margin-top: 0.5vh;
+    margin-bottom: 0.1vh;
+    margin-left: -0.3vh;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: 0px 0px 6px var(--main);
+
+    background: var(--textgradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

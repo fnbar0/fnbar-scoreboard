@@ -27,4 +27,4 @@
 
 ## Preview
 
-https://imgur.com/a/Sl0KkCw
+[image](https://imgur.com/a/Sl0KkCw)

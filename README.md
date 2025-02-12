@@ -10,7 +10,8 @@
 - Configurable.
 - Admin tags.
 - Custom tags.
-- Displaying text on players that use scoreboard. 
+- Displaying text on players that use scoreboard.
+- `/ToggleAdminTag` This command allows admins to toggle their admin tag. When activated, the admin's group will be displayed as "user" instead of their real admin group.
 
 ## Dependencies
 - [ox_lib](https://github.com/overextended/ox_lib)
@@ -18,12 +19,11 @@
 
 ## Resource Installation
 * Download the repository
-* Put the `fnbar-hud` folder in your resources directory
-* Add `ensure fnbar-hud` to your server config
+* Put the `fnbar-scoreboard` folder in your resources directory
+* Add `ensure fnbar-scoreboard` to your server config
 
 ## Usage
 * After you add resource to your server, you can configure it in `config.lua`.
-* Export to toggle hud: exports['fnbar-hud']:toggleHud(state)
 
 ## Preview
 

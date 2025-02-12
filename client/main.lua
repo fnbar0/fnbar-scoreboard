@@ -36,7 +36,7 @@ function scoreboardActive()
 
             sleep = 0
             Draw3DText(bonePos.x, bonePos.y, bonePos.z + 0.8, title, 4, color)
-            Draw3DText(bonePos.x, bonePos.y, bonePos.z + 0.5, playerServerId, 4, MumbleIsPlayerTalking(playerId) and {r = 11, g = 112, b = 242, a = 255} or {r = 255, g = 255, b = 255, a = 255})
+            Draw3DText(bonePos.x, bonePos.y, bonePos.z + 0.5, playerServerId, 4, MumbleIsPlayerTalking(playerId) and Config.TalkingTextColor or {r = 255, g = 255, b = 255, a = 255})
             ::continue::
         end
         Wait(sleep) 

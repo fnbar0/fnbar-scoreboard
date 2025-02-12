@@ -31,3 +31,5 @@ Config.Slowmotion = false -- whether to decrease player speed when using scorebo
 Config.UsingText = '💀' -- text appearing on players that use scoreboard
 
 Config.DrawDistance = 40 -- max distance for drawing player info
+
+Config.TalkingTextColor = {r = 11, g = 112, b = 242, a = 255} -- color of players ID displaying when he is talking

@@ -6,12 +6,12 @@
 
 ## Features
 - Displaying amount of: total players on server, players with mechanic job, police job and ambulance job, and current job.
-- Well optimized.
-- Configurable.
 - Admin tags.
 - Custom tags.
-- Displaying text on players that use scoreboard.
 - `/ToggleAdminTag` This command allows admins to toggle their admin tag. When activated, the admin's group will be displayed as "user" instead of their real admin group.
+- Displaying text on players that use scoreboard.
+- Well optimized.
+- Configurable.
 
 ## Dependencies
 - [ox_lib](https://github.com/overextended/ox_lib)

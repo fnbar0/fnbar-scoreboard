@@ -1,4 +1,3 @@
-local ESX = exports['es_extended']:getSharedObject()
 local PlayersUsing = {}
 local scoreboardJobsCounter = {
     ['mechanic'] = 0,

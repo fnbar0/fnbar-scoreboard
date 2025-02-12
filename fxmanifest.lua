@@ -8,6 +8,8 @@ version '1.0.0'
 
 shared_scripts {
     'config.lua',
+    '@es_extended/imports.lua',
+    '@ox_lib/init.lua'
 }
 
 client_scripts {
@@ -22,6 +24,6 @@ ui_page 'nui/index.html'
 
 files {
     'nui/index.html',
-	'nui/script.js',
-	'nui/style.css',
+    'nui/script.js',
+    'nui/style.css',
 }

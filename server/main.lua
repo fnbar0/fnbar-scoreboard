@@ -49,7 +49,6 @@ AddEventHandler('onResourceStart', function(resourceName)
       return
     end
     Wait(300)
-    local players = GetPlayers()
     jobsCounter()
 end)
 
